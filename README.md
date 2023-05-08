@@ -2,7 +2,7 @@
 
 # JSON to Struct
 
-This is a command-line tool that generates JSON schemas and TypeScript interfaces from JSON data.
+This is a command-line tool that generates Rust structs or TypeScript interfaces from JSON data.
 
 ## Usage
 
