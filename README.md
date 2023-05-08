@@ -1,4 +1,6 @@
-JSON to Struct
+[![Rust](https://github.com/ztroop/json-to-struct/actions/workflows/rust.yml/badge.svg)](https://github.com/ztroop/json-to-struct/actions/workflows/rust.yml)
+
+# JSON to Struct
 
 This is a command-line tool that generates JSON schemas and TypeScript interfaces from JSON data.
 
@@ -7,22 +9,17 @@ This is a command-line tool that generates JSON schemas and TypeScript interface
 To use the tool, you can run it from the command line like this:
 
 ```sh
-json-to-struct <filename>
+json-to-struct <filename> <rust|typescript>
 ```
 
-Where `<filename>` is the path to a JSON file that you want to generate a schema or interface for.
-
-The tool will output two files:
-
-- `<filename>.jsonschema`: The JSON schema for the input data.
-- `<filename>.ts`: The TypeScript interface for the input data.
+Where `<filename>` is the path to a JSON file that you want to generate a schema or interface for. The second argument specifies whether to print a Rust struct or TypeScript interface.
 
 ## Examples
 
-Here are some examples of how to use the tool:
+Here is an example of how to use the tool:
 
 ```sh
-json-to-struct input.json
+json-to-struct input.json rust
 ```
 
 ## Dependencies
